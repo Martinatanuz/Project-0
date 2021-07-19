@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <TItle>Advanced Search</TItle>
+    </head>
+    <style>
+        .searchbox {
+            border: #a7a5a5c5 solid 1px;
+/*             padding-left: 370px;
+            padding-bottom: 5px; */
+        }
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        img {
+                width: 70px;
+                height: auto;
+                padding-top: 15px;
+                padding-left: 15px;
+        }
+        h4 {
+                margin-left: 30px;
+                margin-top: 40px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: 500;
+                font-size: 18px;
+                color: #d80e0ed2 ;
+        }
+        h3 {
+
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: 400;
+                font-size: 17px;
+                color: #303030ee;
+
+            }
+        table {
+            font-size: 12.5px;
+            color: #303030ec;
+            font-weight: 300;
+
+
+        }
+        td {
+            padding-top: 15px;
+            padding-bottom: 5px;
+            padding-left:5px ;
+
+
+        }
+        #foo {
+            padding-top: 15px;
+            padding-left: 40px;
+            border-top: solid 1px rgba(153, 153, 153, 0.479);
+            border-bottom: solid 1px rgba(153, 153, 153, 0.479);
+            padding-bottom: 40px;
+        }
+        input {
+            width: 500px;
+            height: 25px;
+        }
+        .expl {
+            width: 300px;
+            font-size: 10px;
+        }
+
+    </style>
+    <link rel="stylesheet" href="stylebutton.css">
+
+    <body>
+        <div style="text-align: right; float: right;">
+            <a class="button" href="googlesearch.html">Google Search</a>
+        </div>
+
+    <img src="Google_2015_logo.svg" alt="google">
+
+    <h4>Advanced Search</h4>
+
+    <div id="foo">
+    <h3>Find pages with...</h3>
+        <table>
+
+            <tr>
+                <td>all this words:</td>
+                <td>
+                    <form action="https://www.google.com/advanced_search">
+                    <input class="searchbox" type="search" id="gsearch" name="q">
+
+                    </form>
+                </td>
+                <td class="expl">Type the important words: tri-colour rat terrier</td>
+            </tr>
+
+            <tr>
+                <td>this exact word or phrase:</td>
+                <td>
+                    <form action="https://www.google.com/advanced_search">
+                    <input class="searchbox" type="search" id="gsearch" name="q">
+
+                    </form>
+                </td>
+                <td class="expl">Put exact words in quotes: "rat terrier"</td>
+            </tr>
+
+            <tr>
+                <td>any of these words:</td>
+                <td>
+                    <form action="https://www.google.com/advanced_search">
+                    <input class="searchbox" type="search" id="gsearch" name="q">
+
+                    </form>
+                </td>
+                <td class="expl">Type OR between all the words you want: miniature OR standard</td>
+            </tr>
+
+            <tr>
+                <td>none of these words:</td>
+                <td>
+                    <form action="https://www.google.com/advanced_search">
+
+                        <input class="searchbox" type="search" id="gsearch" name="q">
+
+                        </form>
+                </td>
+                <td class="expl">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</td>
+            </tr>
+
+            <tr>
+                <td>numbers raging from:</td>
+                <td>
+                    <form  action="https://www.google.com/advanced_search">
+                        <input style="width: 240px;" class="searchbox" type="search" id="gsearch" name="q">
+                    </form>to
+
+                    <form action="https://www.google.com/advanced_search">
+                        <input style="width: 240px;" class="searchbox" type="search" id="gsearch" name="q">
+                    </form>
+
+                </td>
+                <td class="expl">Put two full stops between the numbers and add a unit of measurement: 10..35 kg, £300..£500, 2010..2011</td>
+
+            </tr>
+
+        </table>
+    </div>
+    </body>
+
+</html>
